@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Discord	.\index.js	/^var Discord = require("discord.js");$/;"	v
+Messenger	.\lib\messenger.js	/^Messenger.prototype.defaultResponseType = ResponseTypes.ImageResponse;$/;"	c
+Messenger.defaultResponseType	.\lib\messenger.js	/^Messenger.prototype.defaultResponseType = ResponseTypes.ImageResponse;$/;"	m
+Messenger.specialResponseTypes	.\lib\messenger.js	/^Messenger.prototype.specialResponseTypes = {$/;"	m
+TextResponse	.\lib\response-types.js	/^TextResponse.prototype.middleware = [ manamoji, utm ];$/;"	c
+TextResponse.imageurl	.\lib\response-types.js	/^TextResponse.prototype.imageurl = 'http:\/\/dtdb.co';$/;"	m
+TextResponse.middleware	.\lib\response-types.js	/^TextResponse.prototype.middleware = [ manamoji, utm ];$/;"	m
+TextResponse.url	.\lib\response-types.js	/^TextResponse.prototype.url = 'http:\/\/dtdb\/api\/card\/';$/;"	m
+_	.\lib\middleware\manamoji.js	/^function _(before, after) {$/;"	f
+author	.\package.json	/^  "author": "Scryfall <https:\/\/scryfall.com>",$/;"	f
+bugs	.\package.json	/^  "bugs": {$/;"	f
+cardList	.\lib\response-types.js	/^var cardList = require("..\/data\/cardList.txt");$/;"	v
+dependencies	.\package.json	/^  "dependencies": {$/;"	f
+description	.\package.json	/^  "description": "A Discord bot that can return Magic card information and pictures.",$/;"	f
+discord.js	.\package.json	/^    "discord.js": "^11.0.0",$/;"	f
+editDistance	.\lib\card-similarity.js	/^function editDistance(s1, s2) {$/;"	f
+fs	.\lib\response-types.js	/^var fs = require('fs');$/;"	v
+function.manamoji	.\lib\middleware\manamoji.js	/^  function manamoji(str) {$/;"	f
+homepage	.\package.json	/^  "homepage": "https:\/\/github.com\/scryfall\/servo#readme",$/;"	f
+let.CHAOS	.\lib\middleware\manamoji.js	/^  'CHAOS': 'manachaos',$/;"	p
+let.{hr}	.\lib\middleware\manamoji.js	/^  '{hr}': 'manahr'$/;"	p
+let.{½}	.\lib\middleware\manamoji.js	/^  '{½}': 'manahalf',$/;"	p
+let.{∞}	.\lib\middleware\manamoji.js	/^  '{∞}': 'manainfinity',$/;"	p
+license	.\package.json	/^  "license": "MIT",$/;"	f
+main	.\package.json	/^  "main": "index.js",$/;"	f
+name	.\package.json	/^  "name": "servo",$/;"	f
+repository	.\package.json	/^  "repository": {$/;"	f
+request	.\package.json	/^    "request": "^2.79.0",$/;"	f
+request-promise-native	.\package.json	/^    "request-promise-native": "^1.0.3",$/;"	f
+require.extensions	.\lib\response-types.js	/^require.extensions['.txt'] = function (module, filename) {$/;"	f
+scripts	.\package.json	/^  "scripts": {$/;"	f
+similarity	.\lib\card-similarity.js	/^function similarity(s1, s2) {$/;"	f
+start	.\package.json	/^    "start": "node index.js",$/;"	f
+test	.\package.json	/^    "test": "echo \\"Error: no test specified\\" && exit 1"$/;"	f
+type	.\package.json	/^    "type": "git",$/;"	f
+urijs	.\package.json	/^    "urijs": "^1.18.4"$/;"	f
+url	.\package.json	/^    "url": "git+https:\/\/github.com\/scryfall\/servo.git"$/;"	f
+url	.\package.json	/^    "url": "https:\/\/github.com\/scryfall\/servo\/issues"$/;"	f
+version	.\package.json	/^  "version": "0.1.0",$/;"	f
