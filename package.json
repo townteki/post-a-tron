@@ -18,9 +18,10 @@
   },
   "homepage": "https://github.com/scryfall/servo#readme",
   "dependencies": {
-    "discord.js": "^11.0.0",
+    "discord": "^0.8.2",
+    "discord.js": "^11.2.1",
     "request": "^2.79.0",
-    "request-promise-native": "^1.0.3",
+    "request-promise-native": "^1.0.4",
     "urijs": "^1.18.4"
   }
 }

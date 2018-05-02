@@ -1,7 +1,8 @@
+
 [{
 		"last-modified": "2015-11-14T20:29:40+01:00",
 		"code": "00001",
-		"title": "Pistol Whip (Promo)",
+		"title": "Pistol Whip",
 		"type": "Action",
 		"type_code": "action",
 		"suit": "Clubs",
@@ -33,7 +34,7 @@
 	}, {
 		"last-modified": "2015-11-14T20:17:21+01:00",
 		"code": "00002",
-		"title": "Pony Express (Promo)",
+		"title": "Pony Express",
 		"type": "Deed",
 		"type_code": "deed",
 		"suit": "Diams",
@@ -65,7 +66,7 @@
 	}, {
 		"last-modified": "2015-11-14T20:17:54+01:00",
 		"code": "00003",
-		"title": "The Stakes Just Rose (Promo)",
+		"title": "The Stakes Just Rose",
 		"type": "Action",
 		"type_code": "action",
 		"suit": "Clubs",
@@ -97,7 +98,7 @@
 	}, {
 		"last-modified": "2015-11-14T20:17:32+01:00",
 		"code": "00004",
-		"title": "Circle M Ranch (Promo)",
+		"title": "Circle M Ranch",
 		"type": "Deed",
 		"type_code": "deed",
 		"suit": "Diams",
@@ -129,7 +130,7 @@
 	}, {
 		"last-modified": "2015-11-14T20:18:33+01:00",
 		"code": "00005",
-		"title": "One Good Turn\u2026 (Promo)",
+		"title": "One Good Turn\u2026",
 		"type": "Action",
 		"type_code": "action",
 		"suit": "Clubs",
@@ -161,7 +162,7 @@
 	}, {
 		"last-modified": "2015-11-14T20:17:44+01:00",
 		"code": "00006",
-		"title": "Carter's Bounties (Promo)",
+		"title": "Carter's Bounties",
 		"type": "Deed",
 		"type_code": "deed",
 		"suit": "Diams",
@@ -193,7 +194,7 @@
 	}, {
 		"last-modified": "2015-06-04T15:05:29+02:00",
 		"code": "00007",
-		"title": "Steven Wiles (Promo)",
+		"title": "Steven Wiles",
 		"type": "Dude",
 		"type_code": "dude",
 		"suit": "Spades",
@@ -225,7 +226,7 @@
 	}, {
 		"last-modified": "2015-11-14T20:17:01+01:00",
 		"code": "00008",
-		"title": "Unprepared (Promo)",
+		"title": "Unprepared",
 		"type": "Action",
 		"type_code": "action",
 		"suit": "Clubs",
@@ -257,7 +258,7 @@
 	}, {
 		"last-modified": "2015-11-14T20:30:08+01:00",
 		"code": "00009",
-		"title": "B & B Attorneys (Promo)",
+		"title": "B & B Attorneys",
 		"type": "Deed",
 		"type_code": "deed",
 		"suit": "Diams",
@@ -289,7 +290,7 @@
 	}, {
 		"last-modified": "2016-01-13T20:57:52+01:00",
 		"code": "00010",
-		"title": "It's Not What You Know... (Promo)",
+		"title": "It's Not What You Know...",
 		"type": "Action",
 		"type_code": "action",
 		"suit": "Clubs",
@@ -321,7 +322,7 @@
 	}, {
 		"last-modified": "2016-01-13T21:02:35+01:00",
 		"code": "00011",
-		"title": "Yan Li's Tailoring (Promo)",
+		"title": "Yan Li's Tailoring",
 		"type": "Deed",
 		"type_code": "deed",
 		"suit": "Diams",
@@ -353,7 +354,7 @@
 	}, {
 		"last-modified": "2015-11-14T20:14:47+01:00",
 		"code": "00012",
-		"title": "Rumors (Promo)",
+		"title": "Rumors",
 		"type": "Action",
 		"type_code": "action",
 		"suit": "Clubs",
@@ -385,7 +386,7 @@
 	}, {
 		"last-modified": "2015-11-14T20:16:12+01:00",
 		"code": "00013",
-		"title": "Mustang (Promo)",
+		"title": "Mustang",
 		"type": "Goods",
 		"type_code": "goods",
 		"suit": "Hearts",
@@ -417,7 +418,7 @@
 	}, {
 		"last-modified": "2015-11-14T20:29:54+01:00",
 		"code": "00014",
-		"title": "Teleportation Device (Promo)",
+		"title": "Teleportation Device",
 		"type": "Goods",
 		"type_code": "goods",
 		"suit": "Hearts",
@@ -449,7 +450,7 @@
 	}, {
 		"last-modified": "2015-11-14T20:16:42+01:00",
 		"code": "00015",
-		"title": "Soul Blast (Promo)",
+		"title": "Soul Blast",
 		"type": "Spell",
 		"type_code": "spell",
 		"suit": "Hearts",
@@ -481,7 +482,7 @@
 	}, {
 		"last-modified": "2015-07-05T20:46:25+02:00",
 		"code": "00016",
-		"title": "Joker (red) (Promo)",
+		"title": "Joker (red)",
 		"type": "Joker",
 		"type_code": "joker",
 		"suit": null,
@@ -513,7 +514,7 @@
 	}, {
 		"last-modified": "2015-07-05T20:48:41+02:00",
 		"code": "00017",
-		"title": "Joker (black) (Promo)",
+		"title": "Joker (black)",
 		"type": "Joker",
 		"type_code": "joker",
 		"suit": null,
@@ -545,7 +546,7 @@
 	}, {
 		"last-modified": "2016-01-15T21:14:52+01:00",
 		"code": "00018",
-		"title": "Coachwhip! (Promo)",
+		"title": "Coachwhip!",
 		"type": "Action",
 		"type_code": "action",
 		"suit": "Clubs",
@@ -577,7 +578,7 @@
 	}, {
 		"last-modified": "2016-01-13T21:07:03+01:00",
 		"code": "00019",
-		"title": "Blake Ranch (Promo)",
+		"title": "Blake Ranch",
 		"type": "Deed",
 		"type_code": "deed",
 		"suit": "Diams",
@@ -609,7 +610,7 @@
 	}, {
 		"last-modified": "2017-03-25T11:25:07+01:00",
 		"code": "00020",
-		"title": "Kidnappin' (Promo)",
+		"title": "Kidnappin'",
 		"type": "Action",
 		"type_code": "action",
 		"suit": "Clubs",
@@ -641,7 +642,7 @@
 	}, {
 		"last-modified": "2017-03-25T11:27:18+01:00",
 		"code": "00021",
-		"title": "Charlie's Place (Promo)",
+		"title": "Charlie's Place",
 		"type": "Deed",
 		"type_code": "deed",
 		"suit": "Diams",
@@ -673,7 +674,7 @@
 	}, {
 		"last-modified": "2016-02-23T20:23:42+01:00",
 		"code": "00022",
-		"title": "A Fight They'll Never Forget (Promo)",
+		"title": "A Fight They'll Never Forget",
 		"type": "Action",
 		"type_code": "action",
 		"suit": "Clubs",
@@ -705,7 +706,7 @@
 	}, {
 		"last-modified": "2016-02-23T20:25:47+01:00",
 		"code": "00023",
-		"title": "Baird's Build and Loan (Promo)",
+		"title": "Baird's Build and Loan",
 		"type": "Deed",
 		"type_code": "deed",
 		"suit": "Diams",
@@ -737,7 +738,7 @@
 	}, {
 		"last-modified": "2016-02-23T20:08:13+01:00",
 		"code": "00024",
-		"title": "Jake Smiley (Promo)",
+		"title": "Jake Smiley",
 		"type": "Dude",
 		"type_code": "dude",
 		"suit": "Spades",
