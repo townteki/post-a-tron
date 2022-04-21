@@ -19,14 +19,15 @@
   },
   "homepage": "https://github.com/scryfall/servo#readme",
   "dependencies": {
-    "bufferutil": "^3.0.4",
-    "discord.js": "^11.4.2",
+    "@discordjs/opus": "^0.7.0",
+    "bufferutil": "^4.0.0",
+    "discord.js": "^13.6.0",
     "erlpack": "github:discordapp/erlpack",
     "libsodium-wrappers": "^0.7.3",
-    "node-opus": "^0.2.7",
-    "opusscript": "0.0.6",
+    "opusscript": "^0.0.6",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
+    "string-similarity": "^4.0.4",
     "urijs": "^1.19.1",
     "uws": "^9.148.0"
   }
