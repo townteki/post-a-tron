@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "debug": "node --nolazy --inspect-brk=9229 index.js"
+    "debug": "node --nolazy index.js"
   },
   "repository": {
     "type": "git",
