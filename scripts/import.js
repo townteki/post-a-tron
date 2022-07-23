@@ -65,7 +65,15 @@ async function getDataFromAPI(url) {
 
 async function importCards() {
 
+  const packs = await getDataFromAPI('https://dtdb.co/api/sets/')
   const cards = await getDataFromAPI('https://dtdb.co/api/cards/');
+
+  const packMap = {}
+
+  // map pack codes to pack names for lookup downstream
+  packs.forEach(pack => {
+    packMap[pack.code] = pack;
+  });
 
   // output data structure
   const data = {
@@ -87,6 +95,9 @@ async function importCards() {
         card.text = card.text.replace(searchReplace[0], searchReplace[1]);
       });
     }
+
+    // add pack name to card
+    card.pack_name = packMap[card.pack_code].name;
 
     // store card by code.
     data.cards[card.code] = card;
