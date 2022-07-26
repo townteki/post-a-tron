@@ -1,25 +1,52 @@
-# Maester Luwin
+# POST-A-TRON
 
-Maester Luwin is a Discord bot that will post the Oracle text or image of a _Game of Thrones: LCG_ card to your text channels when a card name is referenced. The Maester Luwin bot is a modified version of the excellent bot Servo found at 
-https://github.com/scryfall/servo
+POST-A-TRON is a Discord bot that will post the text or image of a [Doomtown](https://pineboxentertainment.com/doomtown-reloaded/) card to your text channels when a card name is referenced. 
+This bot is a modified version of the excellent [Servo bot](https://github.com/scryfall/servo).
+
+## Installation and configuration on Discord
+
+You must have the _Manage Server_ permission to add this bot to your Discord server.
+
+The bot will appear as a user and join your text channels. If your Discord server restricts users from chatting by default, 
+you will also need to grant the bot a role that allows it to speak.
+
+### Iconography
+
+You **must** install the images found in the `emojis` directory to your server as custom emojis,
+these are required for the bot to display factions correctly.
+
+| Emoji Name           | File Location               |
+|----------------------|-----------------------------|
+| `:AN:`               | `emojis/AN.png`             |
+| `:EN:`               | `emojis/EN.png`             |
+| `:FM:`               | `emojis/FM.png`             |
+| `:FP:`               | `emojis/FP.png`             |
+| `:LD:`               | `emojis/LD.png`             |
+| `:OL:`               | `emojis/OL.png`             |
+| `:pinebox:`          | `emojis/pinebox.png`        |
 
 ## Usage
 
-You must have the _Manage Server_ permission to add Servo to your Discord server.
+While chatting, surround a card names with brackets (`[[` and `]]`) and prepend with an optional token. 
+The bot will print out the text of that card or its image.
 
-The bot will appear as a user and join your text channels. If your Discord server restricts users from chatting by default, you will also need to grant the bot a role that allows it to speak.
+| Command             | Function                                   |
+|---------------------|--------------------------------------------|
+| `[[!sun in yer eyes]]` | Show a text representation of "Sun in Yer Eyes". |
+| `[[sun in yer eyes]]`   | Show a picture of "Sun in Yer Eyes".             |
 
-## Features
+You may also target a specific version of a card by appending the code of the expansion that the card was released with, separated by a `|` character.
+For example, `[[sun in yer eyes|dtr]]` would retrieve "Sun in Yer Eyes" from the [original Base Set](https://dtdb.co/en/card/01113), 
+whereas `[[sun in yer eyes|dt2]]` would pull up that card's version from the [Weird West Edition](https://dtdb.co/en/card/24221).
 
-While chatting, surround a AGoT card names with brackets (`[[` and `]]`) and prepend with an optional token. Servo will print out the text of that card or its image:
+## Development
 
-| Command               | Function                                        |
-|-----------------------|-------------------------------------------------|
-| `[[!Maester Luwin]]`  | Show a text representation of Maester Luuwin.   |
-| `[[Old Nan]]`         | Show a picture of Old Nan.                      |
+### Local deployment
 
-_example usuage to be added_
+Install dependencies by running `npm install`.
 
-Work in progress: Maester Luwin will also handle misspellings and partial card names, as long as there is a clear match:
+Then import the cards data by running `npm run import`. This will pull the entire card pool from
+[DoomtownDB's](https://dtdb.co) public API, transform it, and save it `/data/cards.json`.
 
-_example of misspelling to be added here_
+Start the application by running `DISCORD_TOKEN=XXXXX npm start`. Replace `XXXXXX` 
+with your actual [Bot's token](https://discordjs.guide/preparations/setting-up-a-bot-application.html#your-bot-s-token). 
