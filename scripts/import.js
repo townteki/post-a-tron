@@ -65,8 +65,8 @@ async function getDataFromAPI(url) {
 
 async function importCards() {
 
-  const packs = await getDataFromAPI('https://dtdb.co/api/sets/')
-  const cards = await getDataFromAPI('https://dtdb.co/api/cards/');
+  const packs = await getDataFromAPI('https://dtdb.co/api/sets')
+  const cards = await getDataFromAPI('https://dtdb.co/api/cards');
 
   const packMap = {}
 
